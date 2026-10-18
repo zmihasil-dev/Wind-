@@ -30,8 +30,10 @@ jobs:
       - name: Pack the plugin
         run: |
           mkdir -p margyt-src/examples/pet/java/pet/margyt
-          cp plugin/manifest.json plugin/icon.png margyt-src/examples/pet/
-          cp plugin/PetPlugin.java plugin/PetView.java margyt-src/examples/pet/java/pet/margyt/
+          cp "plugin/manifest (1).json" margyt-src/examples/pet/manifest.json
+          cp "plugin/icon (1).png" margyt-src/examples/pet/icon.png
+          cp "plugin/PetPlugin (1).java" margyt-src/examples/pet/java/pet/margyt/PetPlugin.java
+          cp "plugin/PetView (1).java" margyt-src/examples/pet/java/pet/margyt/PetView.java
           cd margyt-src
           python3 -m margyt.plugin examples/pet
 
