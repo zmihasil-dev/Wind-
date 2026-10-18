@@ -1,0 +1,11 @@
+{
+  "id": "margyt.wind",
+  "name": "Wind",
+  "name_ru": "Ветер",
+  "version": "1.0",
+  "author": "Wind plugin",
+  "description": "A button that blows wind left to right and sweeps everything off the screen except the video. Press again and the wind brings it all back, right to left. With animation and sound.",
+  "description_ru": "Кнопка: ветер дует слева направо и сметает с экрана всё, кроме видео. Нажми ещё раз — ветер вернёт всё обратно справа налево. С анимацией и звуком.",
+  "entry": "pet.margyt.PetPlugin",
+  "min_api": 1
+}
